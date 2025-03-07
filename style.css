@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    background-color: #FFFFFF;
+    background-image: url(/image/Ellipse\ 14.jpg.png);
+    background-repeat: no-repeat;
+    /* background-position: left; */
+    background-size: 35%;
+
+    
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.home a{
+    text-decoration: none;
+}
+.home{
+    gap: 20px;
+}
+.second{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.get{
+    display: flex;
+}
+.Text{
+    width: 50%;
+    margin-top: 30px;
+    line-height: 25px;
+}
+.Text p{
+    margin-top: 20px;
+}
+
+.group{
+    width: 50%;
+}
+.bottom{
+    justify-items: center;
+}
+.container2{
+    background : #054764;
+    padding: 20px;
+    /* justify-content: center; */
+}
+.blue{
+    width:25% ;
+    background-color: #3E748F;
+    /* margin: 20px; */
+    color: white;
+    border-radius: 10px;
+    line-height: 20px;
+    padding: 40px;
+    margin-top: 20px;
+
+}
+.blue h3{
+    margin-top: 15px;
+}
+.blue p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#read{
+    background-color: #033348;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 4px;
+    color: white;
+}
+.box{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
