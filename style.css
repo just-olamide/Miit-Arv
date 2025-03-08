@@ -7,44 +7,74 @@
     background-color: #FFFFFF;
     background-image: url(/image/Ellipse\ 14.jpg.png);
     background-repeat: no-repeat;
-    /* background-position: left; */
-    background-size: 35%;
-
-    
+    background-size: 35%;  
 }
 
 .nav-list{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    /* padding: 10px; */
+    justify-items: center;
+    width: 100%;
+}
+nav{
+    display: flex;
 }
 .main{
     display: flex;
     align-items: center;
+    color: #033348;
+}
+
+button{
+    padding: 5px 25px;
+    background-color: #054764;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 .home a{
     text-decoration: none;
+    color: #054764;
 }
 .home{
-    gap: 20px;
+    display: flex;
+    gap: 25px;
+    margin-top: 4%;
+    margin-left: 15%;
+    
+}
+.btn{
+    margin-top: 4%;
+    margin-right: 10%;
+}
+.main h1{
+    font-size: 50px;
 }
 .second{
     display: flex;
     width: 90%;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 .get{
-    display: flex;
+    margin-top: 20px;
+}
+.get img{
+    margin-left: 10px;
+    width: 6%;
 }
 .Text{
     width: 50%;
-    margin-top: 30px;
-    line-height: 25px;
+    margin-top: 9%;
+    color: #033348;
+}
+.Text h1{
+    font-size: 50px;
+    line-height: 1.0;
 }
 .Text p{
     margin-top: 20px;
+    line-height: 1.5;
 }
 
 .group{
@@ -52,16 +82,22 @@
 }
 .bottom{
     justify-items: center;
+    margin-bottom: 20px;
+    color: #033348;
 }
 .container2{
     background : #054764;
     padding: 20px;
-    /* justify-content: center; */
+}
+.infi img{
+    margin-left: 30px;
+}
+.home2 a{
+    border-bottom: 2px solid #033348;
 }
 .blue{
     width:25% ;
     background-color: #3E748F;
-    /* margin: 20px; */
     color: white;
     border-radius: 10px;
     line-height: 20px;
@@ -83,6 +119,10 @@
     border-radius: 4px;
     color: white;
 }
+#read img{
+    margin-left: 10px;
+    width: 10%;
+}
 .box{
     display: flex;
     gap: 30px;
@@ -92,4 +132,124 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+.container3{
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.conc{
+    text-align: left;
+    margin-top: 20px;
+}
+.container3 h1{
+    text-align: center;
+    color: #033348;
+}
+.us{
+   margin-left: 10%;
+   width: 80%; 
+   line-height:25px ;
+}
+footer{
+    background-color: #033348;
+    padding-bottom: 10px;
+}
+.container4{
+    display: flex;
+    padding: 30px;
+    color: white;
+}
+.contact2{
+    display: flex;
+    margin-bottom: 10px;
+}
+.contact{
+    border-right: 1px solid white;
+    padding: 20px;
+    width: 20%;
+    margin-left: 6%;
+    margin-top: 25px;
+}
+.phone img{
+    width: 20px;
+}
+.No{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px ;
+    font-size: 20px;
+    color: #033348;
+    margin-bottom: 20px;
+}
+.contact a{
+color: white;
+}
+.link a{
+    text-decoration: none;
+}
+.location2{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 3px;
+}
+.location{
+    margin: 40px;
+    width: 20%;
+    line-height: 1.5;
+    /* padding: 10px; */
+}
+.pic img{
+    width: 20px;
+}
+.sub{
+    display: flex;
+    gap: 3px;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.trio{
+    display: flex;
+    margin-left: 10px;
+    gap: 30%;
+}
+.page{
+    line-height: 2.2;
+    width: 60%;
+}
+.copy {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:700px){
+    .container1{
+        width: 100%;
+    }
+    .nav-list{
+        width: 100%;
+        display: flex;
+        justify-items: center;
+    }
+    button{
+        /* padding: 5px; */
+    }
+    .home{
+        display: flex;
+        margin: auto;
+    }
+    .main h1{
+        font-size: 20px;
+    }
 }
