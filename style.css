@@ -8,6 +8,7 @@
     background-image: url(/image/Ellipse\ 14.jpg.png);
     background-repeat: no-repeat;
     background-size: 35%;  
+    font-family:  Barlow Semi Condensed;
 }
 
 .nav-list{
@@ -18,9 +19,6 @@
 }
 nav{
     display: flex;
-}
-#dropdown{
-    display: none;
 }
 
 .main{
@@ -40,6 +38,9 @@ button{
 .home a{
     text-decoration: none;
     color: #054764;
+}
+.dropdown{
+    display: none;
 }
 .home{
     display: flex;
@@ -92,6 +93,7 @@ button{
 .container2{
     background : #054764;
     padding: 20px;
+    font-family:  Barlow Semi Condensed;
 }
 .infi img{
     margin-left: 30px;
@@ -145,6 +147,7 @@ button{
     width: 100%;
     margin-top: 20px;
     padding-bottom: 20px;
+    font-family:  Barlow Semi Condensed;
     
 }
 .conc{
@@ -168,6 +171,7 @@ footer{
     display: flex;
     padding: 30px;
     color: white;
+    font-family:  Barlow Semi Condensed;
 }
 .contact2{
     display: flex;
@@ -243,9 +247,35 @@ li a{
         display: flex;
         justify-items: center;
     }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        /* min-width: 160px; */
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: #033348;
+        /* padding: 12px 16px; */
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropbtn {
+        margin-top: 10px;
+        padding: 5px;
+      }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
     
     .main h1{
         font-size: 30px;
+        /* margin-top: 10px; */
     }
     .box{
        display: flex;
