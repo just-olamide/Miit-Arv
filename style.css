@@ -13,9 +13,10 @@
 
 .nav-list{
     display: flex;
-    justify-content: space-between;
-    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
+    
 }
 nav{
     display: flex;
@@ -25,6 +26,9 @@ nav{
     display: flex;
     align-items: center;
     color: #033348;
+}
+.infi{
+    margin-left: -200px;
 }
 
 button{
@@ -45,13 +49,7 @@ button{
 .home{
     display: flex;
     gap: 25px;
-    margin-top: 4%;
-    margin-left: 15%;
     
-}
-.btn{
-    margin-top: 4%;
-    margin-right: 10%;
 }
 .main h1{
     font-size: 50px;
@@ -98,7 +96,7 @@ button{
 .infi img{
     margin-left: 30px;
 }
-.home2 a{
+.home2{
     border-bottom: 2px solid #033348;
 }
 .blue img{
@@ -187,7 +185,8 @@ footer{
 .No{
     background-color: white;
     border-radius: 5px;
-    /* padding: 10px ; */
+    width: 70%;
+    padding: 5px 5px ;
     font-size: 20px;
     color: #033348;
     margin-bottom: 20px;
@@ -207,7 +206,6 @@ color: white;
     margin: 40px;
     width: 20%;
     line-height: 1.5;
-    /* padding: 10px; */
 }
 .sub{
     display: flex;
@@ -238,7 +236,7 @@ li a{
     margin-top: 20px;
 }
 
-@media screen and (max-width:700px) {
+@media only screen and (max-width:900px) {
     .container1{
         width: 100%;
     }
@@ -250,23 +248,151 @@ li a{
     .dropdown-content {
         display: none;
         position: absolute;
-        /* min-width: 160px; */
         z-index: 1;
       }
 
       .dropdown-content a {
         color: #033348;
-        /* padding: 12px 16px; */
         text-decoration: none;
         display: block;
       }
       .dropdown:hover .dropdown-content{
         display: block;
     }
-    .dropbtn {
-        margin-top: 10px;
-        padding: 5px;
+
+    .dropdown {
+        display: none;
       }
+    
+    .main h1{
+        font-size: 30px;
+    }
+    .main{
+        display: flex;
+        margin-top: 10px;
+    }
+    .box{
+       display: flex;
+       flex-direction: column;
+    }
+    .third{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .blue{
+      width: 50%;
+      padding: 50px;
+      margin: 0 auto;
+}
+.blue img{
+    width: 40%;
+}
+#read{
+    padding: 10px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+}
+.trio{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin: 0 auto;
+    margin-left: 10px;
+    gap: 10px;
+    width: 100%;
+}
+.page{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    border-right: none;
+}
+.No{
+    padding: 5px 5px;
+    font-size: 17px;
+    width: 20%;
+}
+.phone img{
+    width: 70%;
+}
+.location{
+    width: 100%;
+    margin-left: 20px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.Text{
+    width: 100%;
+    margin: 10px;
+}
+.Text h1{
+    font-size:25px ;
+}
+.group{
+    width: 100%;
+}
+.home{
+    display: block;
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    display: none;
+}
+.bottom{
+    font-size: 14px;
+}
+.infi img{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.infi{
+    margin-left: 0;
+    width: 50%;
+}
+
+}
+
+
+@media screen and (max-width:600px) {
+    .container1{
+        width: 100%;
+    }
+    .nav-list{
+        width: 100%;
+        display: flex;
+        justify-items: center;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: #033348;
+        text-decoration: none;
+        display: block;
+      }
+      .dropdown:hover .dropdown-content{
+        display: block;
+    }
 
     .dropdown {
         position: relative;
@@ -274,8 +400,11 @@ li a{
       }
     
     .main h1{
-        font-size: 30px;
-        /* margin-top: 10px; */
+        font-size: 20px;
+    }
+    .main{
+        display: flex;
+        margin-top: 10px;
     }
     .box{
        display: flex;
@@ -304,36 +433,51 @@ li a{
     justify-items: center;
     margin: auto;
 }
+.sub{
+    gap: 0;
+}
+.pix img{
+    width: 60%;
+}
+.page h3{
+    font-size: 14px;
+}
 .trio{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-items: center;
     margin: 0 auto;
+    margin-left: 10px;
+    gap: 10px;
+    width: 100%;
 }
 .page{
-    width: 100%;
+    width: 30%;
     margin-top: 20px;
 }
 .contact{
     width: 100%;
     padding: 20px;
     margin: auto;
+    border-right: none;
 }
 .No{
     padding: 5px;
     font-size: 17px;
+    width: 60%;
 }
 .phone img{
     width: 70%;
 }
 .location{
     width: 100%;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .second{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10px;
 }
 .Text{
     width: 100%;
@@ -355,7 +499,12 @@ li a{
     font-size: 14px;
 }
 .infi img{
-    width: 40%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
-
+.infi{
+    margin-left: 0;
+    width: 30%;
+}
 }
